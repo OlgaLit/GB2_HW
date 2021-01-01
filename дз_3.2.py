@@ -19,5 +19,5 @@ def user_info(**kwargs):
     phone = input("Введите телефон: ")
     return(f"Имя: {name}, фамилия: {surname}, год рождения: {birth_year}, город проживания: {city}, адрес электронной почты: {email}, телефон: {phone}")
 
-print(user_info(name="vasya", phone="700000"))
+print(user_info())
     
