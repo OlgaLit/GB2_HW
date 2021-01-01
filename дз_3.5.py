@@ -22,6 +22,6 @@ while stop == False:
         if el.isalnum():
             my_sum += int(el)       
         else:
-            print(f"Конец программы")
+            print("Конец программы")
             stop = True
     print(f"Сумма чисел равна {my_sum}")        
